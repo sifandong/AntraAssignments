@@ -7,9 +7,7 @@ package assignments0706;
 public class Solution5 {
     private static int num = 0;
     private static final Object lock = new Object();
-
-
-    public static void main(String[] args) {
+    public static void print() {
         Runnable printOdd = new Runnable() {
             @Override
             public void run() {
@@ -38,6 +36,10 @@ public class Solution5 {
         Thread t1 = new Thread(printOdd);
         t0.start();
         t1.start();
+    }
+
+    public static void main(String[] args) {
+       print();
     }
 }
 

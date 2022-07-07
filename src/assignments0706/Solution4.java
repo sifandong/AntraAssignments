@@ -16,27 +16,26 @@ import java.util.stream.Collectors;
 
 public class Solution4 {
     public static int sum(List<List<Integer>> list) {
-        int sum = 0;
         ExecutorService executor = Executors.newFixedThreadPool(3);
         List<CompletableFuture<Integer>> futureList = list
                 .stream()
                 .map(nums -> CompletableFuture.supplyAsync(()->cal(nums),executor))
                 .collect(Collectors.toList());
         CompletableFuture cf = CompletableFuture.allOf(futureList.toArray(new CompletableFuture[futureList.size()]));
-        CompletableFuture<List<Integer>> res = cf.thenApply(v -> futureList.stream().map(future -> future.join()).collect(Collectors.toList()));
+        CompletableFuture<List<Integer>> res = cf.thenApply(v -> futureList.stream().map(f -> f.join()).collect(Collectors.toList()));
         return cal(res.join());
     }
 
     public static int cal(List<Integer> list) {
-        int sum = list.stream().mapToInt(i -> i.intValue()).sum();
-//        System.out.println(sum);
-        return sum;
+        return list.stream().mapToInt(i -> i.intValue()).sum();
+
+
     }
 
     public static void main(String[] args) {
-        List<Integer> l1 = Arrays.asList(new Integer[]{1,2});
-        List<Integer> l2 = Arrays.asList(new Integer[]{1,2});
-        List<Integer> l3 = Arrays.asList(new Integer[]{1,2});
+        List<Integer> l1 = Arrays.asList(new Integer[]{1,1});
+        List<Integer> l2 = Arrays.asList(new Integer[]{2,2});
+        List<Integer> l3 = Arrays.asList(new Integer[]{3,3});
         List<List<Integer>> temp = new ArrayList<>();
         temp.add(l1);
         temp.add(l2);
