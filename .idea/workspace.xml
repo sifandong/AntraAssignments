@@ -3,13 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5212e481-bad7-43cd-8dc2-1d492970e8f9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assignments0706/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/assignments0706/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assignments0706/Solution1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/assignments0706/Solution1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assignments0706/Solution2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/assignments0706/Solution2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assignments0706/Solution3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/assignments0706/Solution3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assignments0706/Solution4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/assignments0706/Solution4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assignments0706/Solution5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/assignments0706/Solution5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assignments0706/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/assignments0706/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +12,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -48,7 +42,20 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Solution5">
+  <component name="RunManager" selected="Application.MySongCache">
+    <configuration name="MySongCache" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="assignments0707.MySongCache" />
+      <module name="AntraAssignments" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="assignments0707.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Solution4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="assignments0706.Solution4" />
       <module name="AntraAssignments" />
@@ -103,6 +110,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MySongCache" />
         <item itemvalue="Application.Solution5" />
         <item itemvalue="Application.Solution4" />
         <item itemvalue="Application.test01" />
