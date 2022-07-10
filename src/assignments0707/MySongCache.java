@@ -56,6 +56,8 @@ public class MySongCache implements SongCache{
         sc.recordSongPlays("ID-1", 1);
         sc.recordSongPlays("ID-2", 2);
         sc.recordSongPlays("ID-3", 5);
+        sc.recordSongPlays("ID-4", 12);
+
         System.out.println(sc.getPlaysForSong("ID-1"));
         System.out.println(sc.getPlaysForSong("ID-9"));
         System.out.println(sc.getTopNSongsPlayed(2));
