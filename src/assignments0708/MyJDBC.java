@@ -1,4 +1,4 @@
-package assignment0708;
+package assignments0708;
 
 import java.sql.*;
 
