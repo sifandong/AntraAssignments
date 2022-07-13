@@ -4,25 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5212e481-bad7-43cd-8dc2-1d492970e8f9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AntraAssignments.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AntraAssignments.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assignments0706/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/assignments0706/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assignments0706/Solution1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/assignments0706/Solution1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assignments0706/Solution2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/assignments0706/Solution2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assignments0706/Solution3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/assignments0706/Solution3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assignments0706/Solution4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/assignments0706/Solution4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assignments0706/Solution5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/assignments0706/Solution5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assignments0706/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/assignments0706/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assignments0707/MySongCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/assignments0707/MySongCache.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assignments0707/SongCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/assignments0707/SongCache.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assignments0708/MyJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/assignments0708/MyJDBC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assignments0708/img.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/assignments0708/img.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assignments0708/img_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/assignments0708/img_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assignments0708/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/assignments0708/schema.sql" afterDir="false" />
-    </list>
+    <list default="true" id="5212e481-bad7-43cd-8dc2-1d492970e8f9" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
