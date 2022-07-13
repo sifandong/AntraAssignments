@@ -1,11 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="5212e481-bad7-43cd-8dc2-1d492970e8f9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AntraAssignments.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AntraAssignments.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assignments0707/MySongCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/assignments0707/MySongCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assignments0706/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/assignments0706/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assignments0706/Solution1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/assignments0706/Solution1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assignments0706/Solution2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/assignments0706/Solution2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assignments0706/Solution3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/assignments0706/Solution3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assignments0706/Solution4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/assignments0706/Solution4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assignments0706/Solution5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/assignments0706/Solution5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assignments0706/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/assignments0706/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assignments0707/MySongCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/assignments0707/MySongCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assignments0707/SongCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/assignments0707/SongCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assignments0708/MyJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/assignments0708/MyJDBC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assignments0708/img.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/assignments0708/img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assignments0708/img_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/assignments0708/img_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assignments0708/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/assignments0708/schema.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,20 +46,28 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2BZvXAEn21ubQpkjPyw92sU8nvw" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Program Files (x86)/MySQL/Connector J 8.0/mysql-connector-java-8.0.29.jar",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "D:/Playpal",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "proofread"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -51,13 +75,13 @@
       <recent name="D:\Java_study\AntraAssignments\src\assignment0708" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.assignments0708.MyJDBC">
-    <configuration name="MyJDBC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="assignments0708.MyJDBC" />
+  <component name="RunManager" selected="Application.Queries">
+    <configuration name="MySongCache" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="assignments0707.MySongCache" />
       <module name="AntraAssignments" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="assignments0708.*" />
+          <option name="PATTERN" value="assignments0707.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -65,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MySongCache" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="assignments0707.MySongCache" />
+    <configuration name="Queries" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sifan.example.assignments0711.Queries" />
       <module name="AntraAssignments" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="assignments0707.*" />
+          <option name="PATTERN" value="com.sifan.example.assignments0711.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,7 +143,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.assignments0708.MyJDBC" />
+        <item itemvalue="Application.Queries" />
         <item itemvalue="Application.MySongCache" />
         <item itemvalue="Application.Solution5" />
         <item itemvalue="Application.Solution4" />
@@ -151,5 +175,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
